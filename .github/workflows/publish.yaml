@@ -1,8 +1,11 @@
 name: Build and publish python package
 
-on:
-  release:
-    types: [ published ]
+# on:
+#   release:
+#     types: [ published ]
+
+on: [push, fork]
+
 
 jobs:
   publish-service-client-package:
