@@ -16,7 +16,6 @@ jobs:
           BRANCH: main
           POETRY_VERSION: 2.0.1
           POETRY_CORE_VERSION: 2.0.1
-          PUBLISH_REGISTRY: "https://test.pypi.org/legacy/"
           PACKAGE_DIRECTORY: "./postmark_models/"
           PYTHON_VERSION: "3.10"
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
