@@ -1,1 +1,1 @@
-from .message import MessageInbound as MessageInbound
+__version__='0.1.0'
