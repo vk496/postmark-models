@@ -1,0 +1,115 @@
+{
+    "FromName": "Valentin Kivachuk",
+    "MessageStream": "inbound",
+    "From": "vk18496@gmail.com",
+    "FromFull": {
+        "Email": "vk18496@gmail.com",
+        "Name": "Valentin Kivachuk",
+        "MailboxHash": ""
+    },
+    "To": "cac0731fa0b48a89b6bb9d12bca81e59+6ddcbc3dcb426a8c665579d6e73fbfbd@inbound.postmarkapp.com",
+    "ToFull": [
+        {
+            "Email": "cac0731fa0b48a89b6bb9d12bca81e59+6ddcbc3dcb426a8c665579d6e73fbfbd@inbound.postmarkapp.com",
+            "Name": "",
+            "MailboxHash": "6ddcbc3dcb426a8c665579d6e73fbfbd"
+        }
+    ],
+    "Cc": "",
+    "CcFull": [],
+    "Bcc": "",
+    "BccFull": [],
+    "OriginalRecipient": "cac0731fa0b48a89b6bb9d12bca81e59+6ddcbc3dcb426a8c665579d6e73fbfbd@inbound.postmarkapp.com",
+    "Subject": "WOW 😄",
+    "MessageID": "e635d736-2fcf-4ae7-a191-9605ef1ba219",
+    "ReplyTo": "",
+    "MailboxHash": "6ddcbc3dcb426a8c665579d6e73fbfbd",
+    "Date": "Thu, 22 May 2025 18:44:18 +0200",
+    "TextBody": "😄\n\nA test email :D\n\n*AMAZING*\n",
+    "HtmlBody": "<div dir=\"ltr\"><div>😄</div><div><br></div><div>A test email :D</div><div><br></div><div><b>AMAZING</b></div><br></div>\n",
+    "StrippedTextReply": "",
+    "Tag": "",
+    "Headers": [
+        {
+            "Name": "Return-Path",
+            "Value": "<vk18496@gmail.com>"
+        },
+        {
+            "Name": "Received",
+            "Value": "by p-pm-inboundg02c-aws-useast1c.inbound.postmarkapp.com (Postfix, from userid 996)\tid 47CC3453CA4; Thu, 22 May 2025 16:44:32 +0000 (UTC)"
+        },
+        {
+            "Name": "X-Spam-Checker-Version",
+            "Value": "SpamAssassin 3.4.0 (2014-02-07) on\tp-pm-inboundg02c-aws-useast1c"
+        },
+        {
+            "Name": "X-Spam-Status",
+            "Value": "No"
+        },
+        {
+            "Name": "X-Spam-Score",
+            "Value": "-0.1"
+        },
+        {
+            "Name": "X-Spam-Tests",
+            "Value": "DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,\tRCVD_IN_DNSWL_BLOCKED,RCVD_IN_MSPIKE_H2,RCVD_IN_VALIDITY_RPBL_BLOCKED,\tRCVD_IN_VALIDITY_SAFE_BLOCKED,RCVD_IN_ZEN_BLOCKED_OPENDNS,SPF_HELO_NONE,\tSPF_PASS,T_FREEMAIL_DOC_PDF"
+        },
+        {
+            "Name": "Received-SPF",
+            "Value": "pass (gmail.com ... _spf.google.com: Sender is authorized to use 'vk18496@gmail.com' in 'mfrom' identity (mechanism 'include:_netblocks.google.com' matched)) receiver=p-pm-inboundg02c-aws-useast1c; identity=mailfrom; envelope-from=\"vk18496@gmail.com\"; helo=mail-yb1-f172.google.com; client-ip=209.85.219.172"
+        },
+        {
+            "Name": "Received",
+            "Value": "from mail-yb1-f172.google.com (mail-yb1-f172.google.com [209.85.219.172])\t(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))\t(No client certificate requested)\tby p-pm-inboundg02c-aws-useast1c.inbound.postmarkapp.com (Postfix) with ESMTPS id C0C6D453CA3\tfor <cac0731fa0b48a89b6bb9d12bca81e59+6ddcbc3dcb426a8c665579d6e73fbfbd@inbound.postmarkapp.com>; Thu, 22 May 2025 16:44:31 +0000 (UTC)"
+        },
+        {
+            "Name": "Received",
+            "Value": "by mail-yb1-f172.google.com with SMTP id 3f1490d57ef6-e7d750304c8so588289276.1        for <cac0731fa0b48a89b6bb9d12bca81e59+6ddcbc3dcb426a8c665579d6e73fbfbd@inbound.postmarkapp.com>; Thu, 22 May 2025 09:44:31 -0700 (PDT)"
+        },
+        {
+            "Name": "DKIM-Signature",
+            "Value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20230601; t=1747932271; x=1748537071; darn=inbound.postmarkapp.com;        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject         :date:message-id:reply-to;        bh=l0hicVVEPhf4uNQYnzLAsjznKblUeRjTP1Oxy59nYeI=;        b=Q1zqiqPZ8y48MGXVcs8wAaJpJ6HMTq71VlYHiuLjGHXlcjtnftKPm9kyPtO85AeKpc         Wj6VE4nYFZe5fLvIEvARZcwd/vhZMLtsgRYm72Ad+HYccQAXWkKWEUVq5MxJ9kWbmMka         41rh0qF4ouM870nqF7SIr/0ou+WG/y+DWgykJXRZZfd7Oq6fycTt+uaRHIsBtQPArbKH         p3U1p7+1QSP8aSDq2NfYVmIQori05jaFPhx2JGFp9kgI3SF7EgH1iaXti+2cgdfJ243A         SkFa+YpTN6iswo8xprwDkA9f2bfGj9Dr16umRfpT7xDWed/GTAMJfv6BrG7HilkySTBt         Wo1w=="
+        },
+        {
+            "Name": "X-Google-DKIM-Signature",
+            "Value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20230601; t=1747932271; x=1748537071;        h=to:subject:message-id:date:from:mime-version:x-gm-message-state         :from:to:cc:subject:date:message-id:reply-to;        bh=l0hicVVEPhf4uNQYnzLAsjznKblUeRjTP1Oxy59nYeI=;        b=L+pwXgMEUaDY+WZ/7IfFCKYkBTVqIzOCY397ojldAhBFT2D+eKoDt1759J6Sh56n4O         A5xXoULMS51wGuxCAQua57yP+QWxoUztQzJ6Fg2vu+TWV7XEoBK8hvvyA0MW4WLED+CZ         e36KD25nm4+FKz+VzlQoVwV6rgrSiqdxKltNe6b6dilhpDU3aGXef0FFw/54wfnx8fyP         bSaUdHe8C3qUpG+8kiGt/Mhm4Emk1Ut4ntnhuIBkSF7AAzgagUejmGwbVZuk5gJd5xMx         Lz/5ZBGOc2LVuawtwi75Ggikl4OnuZBCbVjjXXsrdrwWRV5xsNuRixSysgyZa0Qa4DT2         txsQ=="
+        },
+        {
+            "Name": "X-Gm-Message-State",
+            "Value": "AOJu0YzX9xG26k63joC2sneg93ayubPEOVEtV8cVVFpUPBbOPBqQppH4\t3e7+Dy7DSfuEoPuoeTq2lrZ+klr4e9c8qPG7eNEmkAvQ6H8Tj+1RX2SO3IlvbQ0Vaj2J6u0SD8t\tu9kHNPZ5StWvnCQLTsvIVqDS2wLSWeGnyX0dc"
+        },
+        {
+            "Name": "X-Gm-Gg",
+            "Value": "ASbGncs1gZCJK0SQEM77XQMmmLC78h/BkZs4t/+PJIQk0fqwnIyTwF0nakbtbL1ylyF\tJL9rWH1+qudL9n6nJxRH7kHrMN8S7lI/DR25w71t0y5lyC4pPoQ0uwM2uTR2CbcuNa0Y7PVcwDF\tjcxmcJ1fytNO1qygpgbkNkoCB8iAGgWg=="
+        },
+        {
+            "Name": "X-Google-Smtp-Source",
+            "Value": "AGHT+IHJSKIG5DkNUJNSORUezyuPkAr3xnunbg4MQ9VyezbTTbCDY2lfFIU9AUMKjIraXXOz34HUNMKW6fbWS0MahmA="
+        },
+        {
+            "Name": "X-Received",
+            "Value": "by 2002:a05:6902:4308:b0:e7b:6bc3:5b93 with SMTP id 3f1490d57ef6-e7b6bc35beamr31818308276.27.1747932271027; Thu, 22 May 2025 09:44:31 -0700 (PDT)"
+        },
+        {
+            "Name": "MIME-Version",
+            "Value": "1.0"
+        },
+        {
+            "Name": "X-Gm-Features",
+            "Value": "AX0GCFsukCa4qf4r8CgSA29owTZ3ypmqNx5FdRaJTeeJ3lgx8GQ3BHiFstcEBPM"
+        },
+        {
+            "Name": "Message-ID",
+            "Value": "<CAFhvtDBSt3b43azYvc-MmYakXy-zj1vmx5jBOPeTyDFr_3Q4NA@mail.gmail.com>"
+        }
+    ],
+    "Attachments": [
+        {
+            "Content": "",
+            "ContentLength": 124663,
+            "Name": "abc.pdf",
+            "ContentType": "application/pdf",
+            "ContentID": "f_mazlq6fd0"
+        }
+    ]
+}
