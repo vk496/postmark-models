@@ -13,6 +13,7 @@ jobs:
       - name: Publish PyPi package
         uses: code-specialist/pypi-poetry-publish@v1
         with:
+          BRANCH: main
           PUBLISH_REGISTRY: "https://test.pypi.org/simple/"
           PACKAGE_DIRECTORY: "./postmark_models/"
           PYTHON_VERSION: "3.10"
