@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
       - name: Publish PyPi package
-        uses: code-specialist/pypi-poetry-publish@v1
+        uses: code-specialist/pypi-poetry-publish@v1.2
         with:
           BRANCH: main
           POETRY_VERSION: 2.0.1
