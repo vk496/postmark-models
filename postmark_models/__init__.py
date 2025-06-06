@@ -2,7 +2,7 @@ from typing import Any
 
 from .message import MessageInbound as MessageInbound
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 example_message: dict[str, Any] = {
     "From": "myUser@theirDomain.com",
