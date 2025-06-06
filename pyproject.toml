@@ -1,6 +1,6 @@
 [project]
 name = "postmark-models"
-version = "0.1.0"
+version = "0.2.0"
 description = "Postmark Pydantic models"
 authors = [{ name = "Valentin Kivachuk Burda", email = "vk18496@gmail.com" }]
 license = { text = "GPLv3" }
