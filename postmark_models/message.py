@@ -1,14 +1,7 @@
 from datetime import datetime
 from typing import Literal
 
-from pydantic import (
-    Base64Bytes,
-    BaseModel,
-    EmailStr,
-    Field,
-    computed_field,
-    field_validator,
-)
+from pydantic import Base64Bytes, BaseModel, EmailStr, Field, field_validator
 
 # NOTE: When Using EmailStr, we get a "The email address is too long before the @-sign" issue. Who is wrong? Well... TODO
 
@@ -58,14 +51,20 @@ class Message(
     headers: list[Headers] = Field(alias="Headers")
     attachments: list[Attachment] = Field(alias="Attachments")
 
-    @computed_field
+    def get_header(self, header_name: str) -> Headers | None:
+        for h in self.headers:
+            if h.name == header_name:
+                return h
+
     @property
     def is_spam(self) -> bool | None:
         for header in self.headers:
             if header.name == "X-Spam-Status":
                 return header.value == "Yes"
 
-        return None  # No spam status available
+    @property
+    def is_reply(self) -> bool:
+        return self.reply_to != None and self.reply_to != ""
 
     @field_validator("date", mode="before")
     @classmethod
